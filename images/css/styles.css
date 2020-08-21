@@ -90,6 +90,10 @@ footer {
         margin: auto;
     }
 
+    img {
+        transition-duration: 0.5s;
+    }
+
     .section-1 {
         display: flex; 
         flex-direction: row-reverse;
@@ -98,7 +102,7 @@ footer {
     .profile-picture {
         padding-top: 0;
         width: 44%;
-        height: auto;
+        height: 100%;
     }
 
     .bio {
@@ -149,4 +153,56 @@ footer {
         list-style: none;
         padding-left: 20px;
     }
+
+    img:hover {
+        transform: scale(1.1);
+    }
 }
+
+    @media screen and (min-width: 1024px) {
+        body {
+            padding-bottom: 0;
+            padding-top: 25px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+}
+
+.nav {
+    margin: initial;
+    align-items: center;
+}
+
+.bio {
+    font-size: 1.75em;
+}
+
+.portfolio-container {
+    margin-bottom: 100px;
+}
+
+.project:nth-child(even) {
+    margin-right: initial;
+}
+
+.project.proj-1,
+.project.proj-2,
+.project.proj-4,
+.project.proj-5 {
+    margin-right: 5%;
+}
+
+.project {
+    width: 30%;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.contact-container {
+    max-width: 50%;
+}
+    }
