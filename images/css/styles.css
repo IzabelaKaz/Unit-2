@@ -43,6 +43,7 @@ a:hover {
 
 .profile-picture {
     padding-top: 50px;
+    max-width: 220px;
 }
 
 .title {
@@ -86,86 +87,93 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+
 nav {
-     width: 335px; 
+    width: 335px; 
     display: flex;
     margin: auto;
-    }
+    margin-bottom: 80px;
+}
 
 img {
     transition-duration: 0.5s;
-    }
+}
 
 .section-1 {
     display: flex; 
     flex-direction: row-reverse;
-    }
+}
 
 .profile-picture {
     padding-top: 0;
     width: 44%;
     height: 100%;
-    }
+}
 
 .bio {
     width: 53%;
     padding-right: 25px;
     text-align: left;
-    }
+}
 
 .project {
     float: left;
     width: 45%;
     margin: auto;
-    }
+}
 
 .project:nth-child(even) {
     margin-right: 7%;
-    }
+}
 
 .project img {
     max-width: 108%;
-    }
+}
 
 .portfolio-text {
     padding: 0 25px;
-    }
+}
 
 .contact-container {
     max-width: 75%;
     margin: auto;
-    }
+}
 
 .contact-text {
     margin-bottom: 50px;
-    }
+}
 
 .top {
     display: none;
-    }
+}
 
 .nav-footer {
     display: flex;
     font-family: 'Open Sans' , sans-serif;
     text-align: center;
     color: rgb(57, 57, 57);
-    }
+}
 
 .nav-footer {
     list-style: none;
     padding-left: 20px;
-    }
+}
 
 img:hover {
     transform: scale(1.1);
-    }
 }
+    }
 
 @media screen and (min-width: 1024px) {
 body {
     padding-bottom: 0;
     padding-top: 25px;
-        }
+}
 
 nav {
     display: flex;
