@@ -65,6 +65,7 @@ a:hover {
 .portfolio-container {
     padding-top: 10%;
     padding-bottom: 10%;
+    background-color: white;
 } 
 
 #portfolio {
@@ -122,6 +123,7 @@ img {
 .section-1 {
     display: flex; 
     flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 .profile-picture {
@@ -193,6 +195,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .nav {
@@ -206,6 +209,7 @@ nav {
 
 .portfolio-container {
     margin-bottom: 100px;
+    background-color: white;
 }
 
 .project:nth-child(even) {
