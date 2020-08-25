@@ -82,8 +82,12 @@ a:hover {
     padding-bottom: 25px; 
 }
 
-.languages {
-    max-width: 20%;
+.skills {
+    max-width: 40%;
+}
+
+.skills-three {
+    text-align: center;
 }
 
 .contact-info {
