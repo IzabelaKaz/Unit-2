@@ -28,6 +28,12 @@ ul, ol {
     margin: 0;
   }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 h3 {
     font-weight: 600;
 }
@@ -35,7 +41,7 @@ h3 {
 #top {
     text-transform: uppercase;
     margin: 16px 0;
-    text-align: left;
+    text-align: center;
 }
 
 a {
@@ -63,8 +69,7 @@ a:hover {
 }
 
 .portfolio-container {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding: 10% 25px;
     background-color: white;
 } 
 
@@ -74,6 +79,10 @@ a:hover {
 
 .project {
     padding-bottom: 25px; 
+}
+
+.skills {
+    height: 15px;
 }
 
 .contact-info {
@@ -123,7 +132,7 @@ img {
 .section-1 {
     display: flex; 
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .profile-picture {
