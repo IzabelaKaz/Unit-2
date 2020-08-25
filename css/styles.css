@@ -71,6 +71,7 @@ a:hover {
 .portfolio-container {
     padding: 10% 25px;
     background-color: white;
+    margin-top: 150px;
 } 
 
 #portfolio {
@@ -81,8 +82,8 @@ a:hover {
     padding-bottom: 25px; 
 }
 
-.skills {
-    height: 15px;
+.languages {
+    max-width: 20%;
 }
 
 .contact-info {
